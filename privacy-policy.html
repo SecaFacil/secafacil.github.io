@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Política de Privacidade do aplicativo SecaFácil — como coletamos, utilizamos e protegemos seus dados pessoais, em conformidade com a LGPD.">
+  <title>Política de Privacidade | SecaFácil</title>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-navy':     '#1e3a5f',
+            'brand-navy-dk':  '#152b47',
+            'brand-green':    '#1f7a34',
+            'brand-green-dk': '#166534',
+            'brand-blue':     '#2563eb',
+            'brand-charcoal': '#374151',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+
+    /* ── Document prose ─────────────────────────────────────────── */
+    .prose-policy {
+      color: #374151;
+      line-height: 1.75;
+    }
+    .prose-policy h1 {
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: #1e3a5f;
+      margin-bottom: 0.25rem;
+      line-height: 1.25;
+    }
+    .prose-policy h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1e3a5f;
+      margin-top: 2.25rem;
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid #e5e7eb;
+    }
+    .prose-policy h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #374151;
+      margin-top: 1.5rem;
+      margin-bottom: 0.4rem;
+    }
+    .prose-policy p {
+      margin-bottom: 0.9rem;
+    }
+    .prose-policy ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 0.9rem;
+    }
+    .prose-policy ol {
+      list-style: decimal;
+      padding-left: 1.5rem;
+      margin-bottom: 0.9rem;
+    }
+    .prose-policy li {
+      margin-bottom: 0.35rem;
+    }
+    .prose-policy strong {
+      font-weight: 600;
+      color: #1f2937;
+    }
+    .prose-policy a {
+      color: #2563eb;
+      text-decoration: underline;
+      word-break: break-word;
+    }
+    .prose-policy a:hover {
+      color: #1d4ed8;
+    }
+    .prose-policy blockquote {
+      border-left: 4px solid #1f7a34;
+      background: #f0fdf4;
+      color: #166534;
+      padding: 0.8rem 1rem;
+      border-radius: 0 0.5rem 0.5rem 0;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+    }
+    .prose-policy blockquote p {
+      margin-bottom: 0;
+    }
+    .prose-policy hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 1.75rem 0;
+    }
+
+    /* ── Tables ─────────────────────────────────────────────────── */
+    .prose-policy table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin: 1rem 0 1.25rem;
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .prose-policy thead {
+      background: #1e3a5f;
+      color: #ffffff;
+    }
+    .prose-policy th {
+      padding: 0.6rem 0.85rem;
+      text-align: left;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .prose-policy td {
+      padding: 0.55rem 0.85rem;
+      border-bottom: 1px solid #e5e7eb;
+      vertical-align: top;
+    }
+    .prose-policy tbody tr:nth-child(even) {
+      background: #f9fafb;
+    }
+    .prose-policy tbody tr:hover {
+      background: #f0fdf4;
+    }
+  </style>
+</head>
+
+<body class="bg-[#f5f5f5] text-brand-charcoal antialiased">
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="sticky top-0 z-50 bg-brand-navy shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center gap-2.5 text-white font-bold text-xl tracking-tight hover:opacity-90 transition-opacity">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <rect width="34" height="34" rx="9" fill="#1f7a34"/>
+            <path d="M17 6C17 6 11.5 12.5 11.5 18C11.5 21.314 13.962 24 17 24C20.038 24 22.5 21.314 22.5 18C22.5 12.5 17 6 17 6Z" fill="white" opacity="0.9"/>
+            <path d="M17 13C17 13 14.5 16.5 14.5 18.5C14.5 20.157 15.619 21.5 17 21.5C18.381 21.5 19.5 20.157 19.5 18.5C19.5 16.5 17 13 17 13Z" fill="#fbbf24"/>
+            <path d="M13.5 25.5C11.2 24.3 10 21.5 11.8 20.3C13.5 19.2 15.2 21.5 15.2 21.5C15.2 21.5 14.1 23.5 13.5 25.5Z" fill="white" opacity="0.55"/>
+          </svg>
+          SecaFácil
+        </a>
+
+        <!-- Desktop nav -->
+        <nav class="hidden md:flex items-center gap-8" aria-label="Navegação principal">
+          <a href="index.html"          class="text-white/80 hover:text-white transition-colors font-medium text-sm">Início</a>
+          <a href="privacy-policy.html" class="text-white font-semibold text-sm border-b-2 border-green-400 pb-0.5">Política de Privacidade</a>
+          <a href="index.html#contato"  class="text-white/80 hover:text-white transition-colors font-medium text-sm">Contato</a>
+        </nav>
+
+        <!-- Mobile hamburger -->
+        <button id="menu-btn"
+                class="md:hidden text-white p-2 rounded-lg hover:bg-white/10 transition-colors"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="currentColor" aria-hidden="true">
+            <rect y="2"    width="22" height="2.5" rx="1.25"/>
+            <rect y="9.75" width="22" height="2.5" rx="1.25"/>
+            <rect y="17.5" width="22" height="2.5" rx="1.25"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu dropdown -->
+    <div id="mobile-menu"
+         class="hidden md:hidden bg-brand-navy-dk border-t border-white/10"
+         role="navigation"
+         aria-label="Menu mobile">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-1">
+        <a href="index.html"          class="text-white/80 hover:text-white hover:bg-white/10 transition-colors font-medium py-3 px-3 rounded-lg block">Início</a>
+        <a href="privacy-policy.html" class="text-white bg-white/10 font-semibold py-3 px-3 rounded-lg block">Política de Privacidade</a>
+        <a href="index.html#contato"  class="text-white/80 hover:text-white hover:bg-white/10 transition-colors font-medium py-3 px-3 rounded-lg block">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         PAGE HERO / TITLE BAND
+    ============================================================ -->
+    <div class="bg-brand-navy text-white py-10 lg:py-14">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <a href="index.html"
+           class="inline-flex items-center gap-1.5 text-white/60 hover:text-white/90 transition-colors text-sm mb-5">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 3L5 7l4 4"/>
+          </svg>
+          Voltar ao início
+        </a>
+        <span class="inline-block bg-white/10 text-green-300 text-sm font-semibold px-3 py-1 rounded-full mb-4 border border-green-400/20">
+          Documentação Legal
+        </span>
+        <h1 class="text-3xl sm:text-4xl font-extrabold mb-3">Política de Privacidade</h1>
+        <p class="text-white/65 text-base">
+          <strong class="text-white/80 font-semibold">Última atualização:</strong> 13 de março de 2026
+          &nbsp;·&nbsp;
+          <strong class="text-white/80 font-semibold">Vigência:</strong> A partir de 13 de março de 2026
+        </p>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         POLICY CONTENT
+    ============================================================ -->
+    <section class="py-10 lg:py-14">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <article class="bg-white rounded-2xl shadow-sm border border-gray-100 p-7 sm:p-10 prose-policy">
+
+          <!-- ─── 1. Introdução ───────────────────────────────────── -->
+          <h2>1. Introdução</h2>
+
+          <p>
+            O aplicativo <strong>SecaFacil</strong> é desenvolvido e operado por
+            <strong>Luiz Felipe Boina</strong>, desenvolvedor independente, doravante
+            denominado "nós", "nosso" ou "o Desenvolvedor".
+          </p>
+
+          <p>
+            Esta Política de Privacidade descreve como coletamos, utilizamos, armazenamos,
+            compartilhamos e protegemos as informações pessoais dos usuários do aplicativo
+            SecaFacil ("você" ou "Titular"), em conformidade com:
+          </p>
+
+          <ul>
+            <li><strong>Lei Geral de Proteção de Dados Pessoais (LGPD)</strong> — Lei nº 13.709/2018</li>
+            <li><strong>Política de Privacidade do Google Play</strong> e demais requisitos do Google para publicação de aplicativos</li>
+          </ul>
+
+          <p>
+            Ao criar uma conta ou utilizar o aplicativo SecaFacil, você concorda com as práticas
+            descritas neste documento. Caso não concorde, recomendamos que não utilize o aplicativo.
+          </p>
+
+          <hr>
+
+          <!-- ─── 2. Controlador ──────────────────────────────────── -->
+          <h2>2. Quem é o Controlador dos Dados</h2>
+
+          <p>Para fins da LGPD, o <strong>Controlador</strong> dos seus dados pessoais é:</p>
+
+          <ul>
+            <li><strong>Nome:</strong> Luiz Felipe Boina</li>
+            <li><strong>Natureza:</strong> Desenvolvedor independente (pessoa física)</li>
+            <li><strong>E-mail para contato:</strong> <a href="mailto:luizboina55@gmail.com">luizboina55@gmail.com</a></li>
+          </ul>
+
+          <hr>
+
+          <!-- ─── 3. Quais Dados Coletamos ────────────────────────── -->
+          <h2>3. Quais Dados Coletamos</h2>
+
+          <h3>3.1 Dados de Cadastro e Identificação</h3>
+
+          <p>Ao criar uma conta no SecaFacil, coletamos os seguintes dados pessoais:</p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Dado</th>
+                <th>Exemplo</th>
+                <th>Finalidade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nome completo</td>
+                <td>"João Silva"</td>
+                <td>Identificação e personalização</td>
+              </tr>
+              <tr>
+                <td>Endereço de e-mail</td>
+                <td>"joao@email.com"</td>
+                <td>Login, comunicação, recuperação de conta</td>
+              </tr>
+              <tr>
+                <td>Número de telefone</td>
+                <td>"+55 27 99741-7888"</td>
+                <td>Login alternativo, autenticação MQTT, verificação por SMS</td>
+              </tr>
+              <tr>
+                <td>Senha</td>
+                <td>(jamais armazenada em texto simples)</td>
+                <td>Autenticação no aplicativo e no broker MQTT</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <blockquote>
+            <p>
+              <strong>Nota sobre o telefone:</strong> O número de telefone é armazenado
+              internamente no formato numérico composto por DDI + DDD + número
+              (ex.: <code>5527997417888</code>). Esse formato é necessário para o funcionamento
+              do protocolo de comunicação com os dispositivos IoT.
+            </p>
+          </blockquote>
+
+          <h3>3.2 Dados de Verificação</h3>
+
+          <p>
+            Durante o cadastro e na recuperação de senha, enviamos um <strong>código OTP de
+            6 dígitos via SMS</strong> para o número de telefone informado. Esse código é
+            temporário, usado exclusivamente para validação, e não é armazenado após a
+            verificação.
+          </p>
+
+          <h3>3.3 Dados de Dispositivos IoT</h3>
+
+          <p>
+            Ao registrar um secador IoT no aplicativo, coletamos e armazenamos os seguintes
+            dados do dispositivo, vinculados à sua conta:
+          </p>
+
+          <ul>
+            <li><strong>Identificação:</strong> endereço MAC, versão de firmware</li>
+            <li><strong>Status de conectividade:</strong> online/offline, data e hora do último acesso (<code>last_seen</code>)</li>
+            <li><strong>Data de ativação:</strong> quando o dispositivo foi associado à sua conta</li>
+            <li>
+              <strong>Métricas operacionais em tempo real</strong> (coletadas continuamente enquanto o dispositivo está online):
+              <ul>
+                <li>Temperatura do sensor externo (°C)</li>
+                <li>Temperatura interna do dispositivo (°C)</li>
+                <li>Intensidade do sinal Wi-Fi (RSSI, em dBm)</li>
+                <li>Memória disponível no microcontrolador (heap livre)</li>
+                <li>Tempo de atividade contínua (uptime, em segundos)</li>
+                <li>Status de cada componente: queimador, turbina, motor</li>
+              </ul>
+            </li>
+          </ul>
+
+          <p>
+            Esses dados são utilizados exclusivamente para monitoramento e controle do
+            dispositivo pelo próprio titular da conta.
+          </p>
+
+          <h3>3.4 Dados de Pagamento</h3>
+
+          <p>
+            O SecaFacil oferece uma assinatura <strong>Premium</strong> paga. O processamento
+            do pagamento é realizado integralmente pela plataforma <strong>InfinitePay</strong>
+            (checkout externo). <strong>Não coletamos, armazenamos nem temos acesso a dados
+            de cartão de crédito ou débito.</strong>
+          </p>
+
+          <p>Os dados que armazenamos em nosso sistema referentes a pagamentos são:</p>
+
+          <ul>
+            <li>Identificador único do pedido (<code>order_id</code>)</li>
+            <li>Status da transação (pendente, pago, expirado, falhou)</li>
+            <li>Valor cobrado em centavos e moeda (BRL)</li>
+            <li>Data e hora do pagamento (<code>paid_at</code>)</li>
+            <li>Datas de início e fim do acesso Premium (<code>access_start</code>, <code>access_end</code>)</li>
+          </ul>
+
+          <h3>3.5 Dados de Sessão e Autenticação</h3>
+
+          <p>
+            Geramos e armazenamos <strong>tokens de acesso JWT</strong> (JSON Web Tokens) para
+            manter sua sessão autenticada. Esses tokens possuem prazo de validade e são
+            renovados automaticamente.
+          </p>
+
+          <p>
+            No dispositivo móvel, os seguintes dados são armazenados de forma criptografada
+            pelo sistema operacional (via <strong>Expo SecureStore</strong>):
+          </p>
+
+          <ul>
+            <li>Token de acesso JWT</li>
+            <li>Dados básicos do perfil (nome, e-mail, telefone, status Premium)</li>
+            <li>Senha (criptografada, utilizada para reconexão automática ao broker MQTT)</li>
+            <li>Data de expiração do token</li>
+          </ul>
+
+          <h3>3.6 Dados que NÃO Coletamos</h3>
+
+          <p>Deixamos explícito que o SecaFacil <strong>não coleta</strong>:</p>
+
+          <ul>
+            <li>Localização geográfica (GPS ou rede)</li>
+            <li>Fotos, vídeos ou qualquer imagem capturada pela câmera</li>
+            <li>Contatos da agenda telefônica</li>
+            <li>Histórico de navegação ou de outros aplicativos</li>
+            <li>Dados demográficos (idade, gênero, raça)</li>
+            <li>Publicidade identificada ou perfil comportamental para fins de marketing</li>
+          </ul>
+
+          <hr>
+
+          <!-- ─── 4. Como Utilizamos os Dados ────────────────────── -->
+          <h2>4. Como Utilizamos os Dados</h2>
+
+          <p>
+            Utilizamos seus dados pessoais exclusivamente para as seguintes finalidades, com
+            base nas bases legais correspondentes da LGPD:
+          </p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Finalidade</th>
+                <th>Dados utilizados</th>
+                <th>Base legal (LGPD)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Criar e gerenciar sua conta</td>
+                <td>Nome, e-mail, telefone, senha</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Autenticar o login e manter a sessão</td>
+                <td>E-mail/telefone, senha, token JWT</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Verificar o número de telefone por SMS</td>
+                <td>Número de telefone</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Permitir o controle remoto dos dispositivos IoT</td>
+                <td>Token JWT, telefone (MQTT), MAC do dispositivo</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Exibir métricas e status dos dispositivos</td>
+                <td>Dados operacionais IoT</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Processar o pagamento da assinatura Premium</td>
+                <td>Dados de pedido (sem dados de cartão)</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Recuperação de senha</td>
+                <td>Telefone, código OTP</td>
+                <td>Execução de contrato (Art. 7º, V)</td>
+              </tr>
+              <tr>
+                <td>Suporte ao usuário</td>
+                <td>E-mail, telefone</td>
+                <td>Legítimo interesse (Art. 7º, IX)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr>
+
+          <!-- ─── 5. Compartilhamento ─────────────────────────────── -->
+          <h2>5. Compartilhamento de Dados com Terceiros</h2>
+
+          <p>
+            Não vendemos, alugamos nem comercializamos seus dados pessoais. Compartilhamos
+            dados <strong>somente</strong> com os seguintes parceiros, nas condições indicadas:
+          </p>
+
+          <h3>5.1 Twilio (Verificação por SMS)</h3>
+          <ul>
+            <li><strong>Dado compartilhado:</strong> Número de telefone</li>
+            <li><strong>Finalidade:</strong> Envio do código OTP para verificação de telefone e recuperação de senha</li>
+            <li><strong>Política de privacidade:</strong> <a href="https://www.twilio.com/en-us/legal/privacy" target="_blank" rel="noopener noreferrer">https://www.twilio.com/en-us/legal/privacy</a></li>
+          </ul>
+
+          <h3>5.2 InfinitePay (Processamento de Pagamento)</h3>
+          <ul>
+            <li><strong>Dado compartilhado:</strong> Valor do pedido, moeda (BRL), identificador do pedido gerado pelo sistema</li>
+            <li><strong>Finalidade:</strong> Processamento do pagamento Pix para a assinatura Premium</li>
+            <li><strong>Nota:</strong> O checkout é hospedado pela InfinitePay. Você é redirecionado para a plataforma deles para inserir dados de pagamento.</li>
+            <li><strong>Política de privacidade:</strong> <a href="https://infinitepay.io/politica-de-privacidade" target="_blank" rel="noopener noreferrer">https://infinitepay.io/politica-de-privacidade</a></li>
+          </ul>
+
+          <h3>5.3 Amazon Web Services — AWS (Infraestrutura de Nuvem)</h3>
+          <ul>
+            <li><strong>Dado compartilhado:</strong> Todos os dados armazenados em nosso banco de dados e servidor</li>
+            <li><strong>Finalidade:</strong> Hospedagem do servidor de API, banco de dados PostgreSQL (RDS), armazenamento de arquivos (S3) e gerenciamento seguro de segredos (SSM)</li>
+            <li><strong>Localização dos servidores:</strong> Região us-east-1 (Norte da Virgínia, EUA)</li>
+            <li><strong>Política de privacidade:</strong> <a href="https://aws.amazon.com/privacy/" target="_blank" rel="noopener noreferrer">https://aws.amazon.com/privacy/</a></li>
+          </ul>
+
+          <h3>5.4 Cloudflare (Proxy e CDN)</h3>
+          <ul>
+            <li><strong>Dado compartilhado:</strong> Tráfego HTTPS entre o aplicativo e nosso servidor (metadados de requisições)</li>
+            <li><strong>Finalidade:</strong> Intermediação segura das conexões HTTPS, proteção contra ataques e fornecimento de certificados SSL</li>
+            <li><strong>Política de privacidade:</strong> <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">https://www.cloudflare.com/privacypolicy/</a></li>
+          </ul>
+
+          <h3>5.5 Autoridades Competentes</h3>
+          <p>
+            Podemos divulgar dados pessoais quando obrigados por lei, ordem judicial, regulação
+            aplicável ou solicitação legítima de autoridade pública competente, incluindo a
+            <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>.
+          </p>
+
+          <hr>
+
+          <!-- ─── 6. Transferência Internacional ─────────────────── -->
+          <h2>6. Transferência Internacional de Dados</h2>
+
+          <p>
+            Alguns dos nossos parceiros (AWS, Twilio) operam servidores fora do Brasil. Ao
+            utilizar o SecaFacil, você concorda que seus dados possam ser transferidos para
+            outros países, incluindo os Estados Unidos. Essas transferências são realizadas
+            com garantias adequadas de segurança e em conformidade com o Art. 33 da LGPD.
+          </p>
+
+          <hr>
+
+          <!-- ─── 7. Retenção de Dados ────────────────────────────── -->
+          <h2>7. Retenção de Dados</h2>
+
+          <p>
+            Mantemos seus dados pelo tempo necessário para cumprir as finalidades descritas
+            nesta política. Os períodos de retenção são:
+          </p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo de dado</th>
+                <th>Período de retenção</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dados de cadastro (nome, e-mail, telefone)</td>
+                <td>Enquanto a conta estiver ativa + conforme obrigação legal</td>
+              </tr>
+              <tr>
+                <td>Dados dos dispositivos IoT</td>
+                <td>Enquanto o dispositivo estiver associado à conta</td>
+              </tr>
+              <tr>
+                <td>Histórico de pagamentos</td>
+                <td>Pelo menos 5 anos (obrigação fiscal/legal)</td>
+              </tr>
+              <tr>
+                <td>Tokens JWT</td>
+                <td>Até a expiração ou logout</td>
+              </tr>
+              <tr>
+                <td>Credenciais locais (SecureStore)</td>
+                <td>Até o logout ou desinstalação do app</td>
+              </tr>
+              <tr>
+                <td>Backups do banco de dados</td>
+                <td>7 dias (política de backup AWS RDS)</td>
+              </tr>
+              <tr>
+                <td>Logs de sistema</td>
+                <td>Até 30 dias</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Após a exclusão da conta ou solicitação de exclusão de dados, as informações são
+            removidas do banco de dados ativo. Cópias em backups automáticos podem persistir
+            por até <strong>7 dias</strong> antes de serem automaticamente sobrescritas.
+          </p>
+
+          <hr>
+
+          <!-- ─── 8. Direitos do Titular ──────────────────────────── -->
+          <h2>8. Seus Direitos como Titular (LGPD — Art. 18)</h2>
+
+          <p>
+            A LGPD garante a você os seguintes direitos em relação aos seus dados pessoais:
+          </p>
+
+          <ol>
+            <li><strong>Confirmação e acesso</strong> — Confirmar se tratamos seus dados e obter uma cópia deles.</li>
+            <li><strong>Correção</strong> — Solicitar a correção de dados incompletos, inexatos ou desatualizados.</li>
+            <li><strong>Anonimização, bloqueio ou eliminação</strong> — Solicitar a anonimização ou exclusão de dados desnecessários ou tratados em desconformidade com a LGPD.</li>
+            <li><strong>Portabilidade</strong> — Solicitar a portabilidade dos seus dados a outro fornecedor de serviço.</li>
+            <li><strong>Eliminação</strong> — Solicitar a exclusão dos dados tratados com base no seu consentimento.</li>
+            <li><strong>Informação sobre compartilhamento</strong> — Obter informações sobre com quais entidades compartilhamos seus dados.</li>
+            <li><strong>Revogação do consentimento</strong> — Revogar o consentimento para tratamento baseado nessa base legal.</li>
+            <li><strong>Oposição</strong> — Opor-se ao tratamento de dados realizado com base em interesse legítimo.</li>
+            <li><strong>Revisão de decisões automatizadas</strong> — Solicitar revisão de decisões tomadas exclusivamente por meios automatizados.</li>
+          </ol>
+
+          <p>
+            Para exercer qualquer um desses direitos, entre em contato conosco pelo e-mail:
+            <a href="mailto:luizboina55@gmail.com"><strong>luizboina55@gmail.com</strong></a>
+          </p>
+
+          <p>
+            Responderemos às solicitações no prazo de até <strong>15 dias úteis</strong>,
+            conforme exigido pela LGPD.
+          </p>
+
+          <hr>
+
+          <!-- ─── 9. Segurança dos Dados ──────────────────────────── -->
+          <h2>9. Segurança dos Dados</h2>
+
+          <p>
+            Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados
+            pessoais contra acesso não autorizado, perda, alteração ou divulgação indevida:
+          </p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Medida</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Criptografia em trânsito</td>
+                <td>Todas as comunicações entre o app e o servidor utilizam HTTPS (TLS 1.2+) via Cloudflare</td>
+              </tr>
+              <tr>
+                <td>Criptografia MQTT</td>
+                <td>Comandos IoT são transmitidos via WebSocket Secure (WSS) com autenticação por credenciais</td>
+              </tr>
+              <tr>
+                <td>Criptografia em repouso</td>
+                <td>Banco de dados PostgreSQL no AWS RDS criptografado com AES-256</td>
+              </tr>
+              <tr>
+                <td>Armazenamento seguro local</td>
+                <td>Credenciais no dispositivo armazenadas via Expo SecureStore (criptografia nativa do SO)</td>
+              </tr>
+              <tr>
+                <td>Hashing de senhas</td>
+                <td>Senhas são armazenadas no servidor exclusivamente em formato hash (nunca em texto simples)</td>
+              </tr>
+              <tr>
+                <td>Autenticação JWT</td>
+                <td>Tokens de sessão possuem expiração e são renovados automaticamente antes do vencimento</td>
+              </tr>
+              <tr>
+                <td>Gerenciamento de segredos</td>
+                <td>Chaves e certificados do servidor armazenados no AWS SSM Parameter Store (criptografado)</td>
+              </tr>
+              <tr>
+                <td>Backups criptografados</td>
+                <td>Backups automáticos do banco de dados são criptografados e retidos por 7 dias</td>
+              </tr>
+              <tr>
+                <td>Acesso restrito ao servidor</td>
+                <td>Acesso ao servidor de produção apenas via AWS SSM Session Manager (sem SSH exposto)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Apesar de todos os esforços, nenhum sistema é 100% seguro. Em caso de incidente
+            de segurança que afete seus dados, notificaremos você e a ANPD nos prazos
+            previstos em lei.
+          </p>
+
+          <hr>
+
+          <!-- ─── 10. Permissões do Aplicativo ────────────────────── -->
+          <h2>10. Permissões do Aplicativo</h2>
+
+          <p>O SecaFacil solicita as seguintes permissões no seu dispositivo móvel:</p>
+
+          <h3>Câmera</h3>
+          <ul>
+            <li><strong>Por quê:</strong> Utilizada exclusivamente para leitura do <strong>QR code</strong> impresso no dispositivo IoT, necessário para registrá-lo na sua conta.</li>
+            <li><strong>O que não fazemos:</strong> A câmera não captura, armazena nem transmite imagens ou vídeos. Nenhuma foto é salva.</li>
+            <li><strong>Quando é solicitada:</strong> Apenas ao acessar a tela de ativação de novo dispositivo.</li>
+          </ul>
+
+          <hr>
+
+          <!-- ─── 11. Menores de Idade ────────────────────────────── -->
+          <h2>11. Usuários Menores de Idade</h2>
+
+          <p>
+            O SecaFacil é um aplicativo voltado ao controle de equipamentos industriais/agrícolas
+            (secadores de grãos). <strong>Não coletamos conscientemente dados de menores de 18
+            anos.</strong> Caso identifiquemos que dados de um menor foram coletados sem o
+            consentimento dos responsáveis, tomaremos as medidas necessárias para excluí-los
+            imediatamente.
+          </p>
+
+          <hr>
+
+          <!-- ─── 12. Alterações ──────────────────────────────────── -->
+          <h2>12. Alterações nesta Política</h2>
+
+          <p>
+            Podemos atualizar esta Política de Privacidade periodicamente para refletir
+            mudanças no aplicativo, nas leis aplicáveis ou nas nossas práticas. Quando houver
+            alterações relevantes:
+          </p>
+
+          <ul>
+            <li>A data de "Última atualização" no topo deste documento será modificada.</li>
+            <li>Você será notificado por e-mail ou por aviso no próprio aplicativo.</li>
+          </ul>
+
+          <p>
+            Recomendamos que você revise esta política periodicamente. O uso continuado do
+            aplicativo após as alterações implica a aceitação da nova versão.
+          </p>
+
+          <hr>
+
+          <!-- ─── 13. Contato ─────────────────────────────────────── -->
+          <h2>13. Contato</h2>
+
+          <p>
+            Para dúvidas, solicitações relacionadas aos seus direitos como titular, ou qualquer
+            questão sobre esta Política de Privacidade, entre em contato com o responsável
+            pelos dados:
+          </p>
+
+          <p>
+            <strong>Luiz Felipe Boina</strong><br>
+            E-mail: <a href="mailto:luizboina55@gmail.com"><strong>luizboina55@gmail.com</strong></a>
+          </p>
+
+          <p>
+            Para suporte técnico relacionado ao aplicativo, você também pode entrar em contato
+            via WhatsApp.
+          </p>
+
+          <hr>
+
+          <p class="text-sm text-brand-charcoal/55 italic">
+            Esta Política de Privacidade foi elaborada em conformidade com a Lei Geral de
+            Proteção de Dados Pessoais (Lei nº 13.709/2018) e os requisitos de privacidade
+            do Google Play.
+          </p>
+
+        </article>
+
+        <!-- Back to top / back link -->
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <a href="index.html"
+             class="inline-flex items-center gap-2 text-brand-navy hover:text-brand-green transition-colors font-medium text-sm">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 3L5 7l4 4"/>
+            </svg>
+            Voltar ao início
+          </a>
+          <a href="mailto:luizboina55@gmail.com"
+             class="inline-flex items-center gap-2 bg-brand-navy hover:bg-brand-navy-dk transition-colors text-white font-semibold text-sm px-5 py-2.5 rounded-xl">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="1" y="3" width="14" height="10" rx="2"/>
+              <path d="M1 6l7 4 7-4"/>
+            </svg>
+            Entrar em contato
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="bg-[#111827] text-white/50 py-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <p>© 2026 SecaFácil. Todos os direitos reservados.</p>
+      <nav class="flex gap-6" aria-label="Links do rodapé">
+        <a href="index.html"          class="hover:text-white transition-colors">Início</a>
+        <a href="privacy-policy.html" class="text-white font-medium">Privacidade</a>
+        <a href="index.html#contato"  class="hover:text-white transition-colors">Contato</a>
+      </nav>
+      <p>secafacil.org</p>
+    </div>
+  </footer>
+
+  <!-- Mobile menu toggle -->
+  <script>
+    const btn  = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+      const isOpen = !menu.classList.contains('hidden');
+      menu.classList.toggle('hidden', isOpen);
+      btn.setAttribute('aria-expanded', String(!isOpen));
+    });
+
+    menu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        menu.classList.add('hidden');
+        btn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+</body>
+</html>
